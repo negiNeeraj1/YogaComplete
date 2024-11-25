@@ -4,6 +4,9 @@ import Navbar from "./Components/Navbar";
 import './App.css'
 import Home from "./page/Home";
 import Teachers from "./page/Teacher";
+import Pricing from "./page/Pricing";
+import AuthPage from "./page/Login";
+
 
 const App = () => {
   return (
@@ -13,7 +16,8 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/teachers" element={<Teachers />} />
-          <Route path="/Pricing" element={<Pricing/>}/>
+          <Route path="/pricing" element={<Pricing />} />
+          <Route path="/authPage" element={<AuthPage />} />          
         </Routes>
       </div>
     </Router>
