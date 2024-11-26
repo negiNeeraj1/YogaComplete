@@ -28,11 +28,11 @@ const Navbar = () => {
             >
               Teachers
             </Link>
-            <Link to="/contact" className="text-gray-600 hover:text-indigo-600">
+            <Link to="/ContactUs" className="text-gray-600 hover:text-indigo-600">
               Contact Us
             </Link>
             <Link
-              to="/testimonials"
+              to="/TestimonialPage"
               className="text-gray-600 hover:text-indigo-600"
             >
               Testimonials
@@ -84,13 +84,13 @@ const Navbar = () => {
                 Teachers
               </Link>
               <Link
-                to="/contact"
+                to="/ContactUs"
                 className="block px-3 py-2 text-gray-600 hover:text-indigo-600"
               >
                 Contact Us
               </Link>
               <Link
-                to="/testimonials"
+                to="/TestimonialPage"
                 className="block px-3 py-2 text-gray-600 hover:text-indigo-600"
               >
                 Testimonials
